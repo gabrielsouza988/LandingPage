@@ -6,16 +6,20 @@
 	<meta charset="utf-8">
 	<meta name="keywords" content="DankiCode,LaddingPage,skills,developer,meu-site">
 	<meta name="description" content="this is a project on a course from DankiCode. Is a project to show my skills as a programmer!">
+	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<link href="assets/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header>
 		<div class="center">
-			<div class="logo">Logotipo</div>
+			<div class="logo left">Logotipo</div>
 
 			<!------------------------
 				NAVBAR DESKTOP
 			 ------------------------->
-			<nav class="desktop">
+			<nav class="desktop right">
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Sobre</a></li>
@@ -27,7 +31,7 @@
 			<!------------------------
 				NAVBAR Mobile
 			 ------------------------->
-			<nav class="mobile">
+			<nav class="mobile right">
 				<ul>
 					<li><a href="">Home</a></li>
 					<li><a href="">Sobre</a></li>
@@ -35,6 +39,7 @@
 					<li><a href="">Contato</a></li>
 				</ul>
 			</nav>
+			<div class="clear"></div>
 		</div>
 	</header>
 
@@ -56,7 +61,7 @@
 	------------------------->
 	<section class="author-description">
 		<div class="center">
-			<div class="w50">
+			<div class="w50 left">
 				<h2>Gabriel de Oliveira Souza</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -67,9 +72,10 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
 			</div>
-			<div class="w50">
+			<div class="w50 left">
 				<img src="assets/img/profile.png">	
 			</div>
+			<div class="clear"></div>
 		</div>
 	</section>
 
@@ -79,24 +85,24 @@
 	<section class="skills">
 		<div class="center">
 			<h2 class="title">Especialidades</h2>
-			<div class="box-skills">
-				<h3>Icone 1</h3>
+			<div class="w33 left box-skills">
+				<h3><i class="fab fa-css3-alt"></i></h3>
 				<h3>CSS3</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>	
 			</div>
-			<div class="box-skills">
-				<h3>Icone 2</h3>
+			<div class="w33 left box-skills">
+				<h3><i class="fab fa-html5"></i></h3>
 				<h3>HTML5</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>	
 			</div>
-			<div class="box-skills">
-				<h3>Icone 3</h3>
+			<div class="w33 left box-skills">
+				<h3><i class="fab fa-js"></i></h3>
 				<h3>JavaScript</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -111,7 +117,7 @@
 	------------------------->
 	<section class="extras">
 		<div class="center">
-			<div class=w50>
+			<div class="w50 left">
 				<h2 class="title">Depoimentos</h2>
 				<div class="depoiment-single">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -135,7 +141,7 @@
 					<p class="author-name">Lorem Ipsum</p>
 				</div>
 			</div>
-			<div class=w50>
+			<div class="w50 left">
 				<h2 class="title">Serviços</h2>
 				<div class="services">
 					<ul>
@@ -154,6 +160,7 @@
 					</ul>
 				</div>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</section>
 
@@ -166,5 +173,6 @@
 		</div>
 	</footer>
 
+	<script defer src="assets/js/all.js"></script>
 </body>
 </html>
