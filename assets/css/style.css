@@ -8,6 +8,10 @@
 /************
 	Boot CSS
 ************/
+img {
+	max-width: 400px;
+}
+
 .center {
 	max-width: 1280px;
 	padding: 0 2%;
@@ -16,9 +20,11 @@
 
 .w33 {
 	width: 33.3%;
+	padding: 0 10px;
 }
 
 .w50 {
+	padding: 0 10px;
 	width: 50%;
 }
 
@@ -82,7 +88,7 @@ section.main-banner {
 }
 
 section.main-banner form {
-	width: 98%;
+	width: 93%;
 	max-width: 600px;
 	position: absolute;
 	left: 50%;
@@ -116,4 +122,122 @@ section.main-banner form input[type=submit]{
 	cursor: pointer;
 	font-size: 22px;
 	border: 0;
+}
+
+section.author-description {
+	padding 40px 0;
+}
+
+section.author-description h2 {
+	font-size: 28px;
+	font-weight: 300;
+	color: #444;
+	margin-top: 20px;
+}
+
+section.author-description p{
+	font-size: 10px;
+	font-weight: 300;
+	color: #444;
+	margin-top: 10px;
+}
+
+section.skills{
+	padding: 40px 0;
+	margin-top: 30px;
+	background: #E2E2E2;
+}
+
+section.skills h2.title {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	color: #999;
+}
+
+.box-skills{
+	margin: 40px 0;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.box-skills h3{
+	color: #404580;
+	font-size: 40px;
+}
+
+.box-skills h4 {
+	font-weight: 300;
+	font-size: 25px;
+	color: #BABABA;
+}
+
+.box-skills{
+	color: #444;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 700px){
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile {
+		display: block;
+	}
+
+	.button-menu-mobile {
+		font-size: 24px;
+		cursor: pointer;
+		color: #FFF;
+	}
+
+	nav.mobile ul {
+		width: 100%;
+		top: 55px;
+		position: absolute;
+		left: 0;
+		display: none;
+		text-align: center; 
+	}
+
+	nav.mobile li{
+		width: 100%;
+		display: block;
+		background: #FFF;
+		border-bottom: 1px solid #ccc;
+		font-size: 17px;
+		font-weight: 300;
+		padding: 8px 0;
+	}
+
+	nav.mobile li a{
+		display: block;
+		color: #444;
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	img {
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.w33{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.box-skills{
+		padding: 30px 20px;
+		margin: 0;
+	}
 }
