@@ -10,6 +10,7 @@
 ************/
 img {
 	max-width: 400px;
+	/*margin-right: 200px;*/
 }
 
 .center {
@@ -178,6 +179,86 @@ section.skills h2.title {
 	margin-top: 10px;
 }
 
+section.extras{
+	padding: 30px 0;
+	background: #404580;
+}
+
+section.extras .title{
+	color: #FFF;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.services-container,.depoiment-container{
+	padding: 0 50px; 
+}
+
+.depoiment-single {
+	padding: 15px 0;
+	border-bottom: 1px solid #5056A0; 
+}
+
+p.depoiment-description {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: 300;
+}
+
+p.author-name {
+	font-size: 15px;
+	color: #FFF;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.services ul{
+	margin: 20px 0;
+}
+
+.services li{
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: #FFF;
+	font-weight: 300;
+}
+
+footer{
+	background: #313462;
+	padding: 30px 0;
+}
+
+footer p{
+	color: #FFF;
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+	img {
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.w33{
+		padding: 20px;
+		width: 100%;
+	}
+
+	.box-skills{
+		padding: 30px 20px;
+		margin: 0;
+	}
+}
+
 @media screen and (max-width: 700px){
 	nav.desktop{
 		display: none;
@@ -216,28 +297,5 @@ section.skills h2.title {
 		display: block;
 		color: #444;
 		text-decoration: none;
-	}
-}
-
-@media screen and (max-width: 768px){
-	img {
-		float: none !important;
-		display: block;
-		margin: 0 auto;
-	}
-
-	.w50{
-		padding: 20px;
-		width: 100%;
-	}
-
-	.w33{
-		padding: 20px;
-		width: 100%;
-	}
-
-	.box-skills{
-		padding: 30px 20px;
-		margin: 0;
 	}
 }

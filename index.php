@@ -89,7 +89,7 @@
 				cillum dolore eu fugiat nulla pariatur.</p>
 			</div>
 			<div class="w50 left">
-				<img src="assets/img/profile.png">	
+				<img class="right" src="assets/img/profile.png">	
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -134,46 +134,50 @@
 	------------------------->
 	<section class="extras">
 		<div class="center">
-			<div class="w50 left">
-				<h2 class="title">Depoimentos</h2>
+			<div class="w50 left depoiment-container">
+				<h2 class="title">Depoimentos dos nossos clientes</h2>
 				<div class="depoiment-single">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<p class="depoiment-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>	
 					<p class="author-name">Lorem Ipsum</p>
 				</div>
 				<div class="depoiment-single">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<p class="depoiment-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>	
 					<p class="author-name">Lorem Ipsum</p>
 				</div>
 				<div class="depoiment-single">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<p class="depoiment-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>	
 					<p class="author-name">Lorem Ipsum</p>
 				</div>
 			</div>
-			<div class="w50 left">
+			<div class="w50 left services-container">
 				<h2 class="title">Serviços</h2>
 				<div class="services">
 					<ul>
+
 						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat.</li>
+
 						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat.</li>
+
 						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat.</li>
+
 					</ul>
 				</div>
 			</div>
