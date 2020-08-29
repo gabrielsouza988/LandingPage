@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,10 +7,10 @@
 	<meta charset="utf-8">
 	<meta name="keywords" content="DankiCode,LaddingPage,skills,developer,meu-site">
 	<meta name="description" content="this is a project on a course from DankiCode. Is a project to show my skills as a programmer!">
-	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
-	<link href="assets/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>assets/css/fontawesome.min.css">
+	<link href="<?php echo INCLUDE_PATH; ?>assets/css/all.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo INCLUDE_PATH; ?>assets/css/style.css">
 </head>
 <body>
 	<header>
@@ -21,10 +22,10 @@
 			 ------------------------->
 			<nav class="desktop right">
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Sobre</a></li>
-					<li><a href="">Serviços</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>about">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>services">Serviços</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>contact">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -36,10 +37,10 @@
 					<i class="fa fa-bars"></i>
 				</div>
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Sobre</a></li>
-					<li><a href="">Serviços</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>about">Sobre</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>services">Serviços</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>contact">Contato</a></li>
 				</ul>
 			</nav>
 			<div class="clear"></div>
@@ -89,7 +90,7 @@
 				cillum dolore eu fugiat nulla pariatur.</p>
 			</div>
 			<div class="w50 left">
-				<img class="right" src="assets/img/profile.png">	
+				<img class="right" src="<?php echo INCLUDE_PATH; ?>assets/img/profile.png">	
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -194,8 +195,8 @@
 		</div>
 	</footer>
 
-	<script defer src="assets/js/all.js"></script>
-	<script src="assets/js/jquery-3.5.1.min.js"></script>
-	<script src="assets/js/landingPage.js"></script>
+	<script defer src="<?php echo INCLUDE_PATH; ?>assets/js/all.js"></script>
+	<script src="<?php echo INCLUDE_PATH; ?>assets/js/jquery-3.5.1.min.js"></script>
+	<script src="<?php echo INCLUDE_PATH; ?>assets/js/landingPage.js"></script>
 </body>
 </html>
