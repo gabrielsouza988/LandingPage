@@ -12,3 +12,10 @@ $(document).on('click', 'nav.mobile', function (){
 
 	listMenu.slideToggle();
 });
+
+if ($('target').length > 0) {
+	// O elemento existe, potanto precisamos dar o scroll
+	var	elemento = '#'+$('target').attr('target');
+	var scroll = $(elemento).offset().top
+	$('html,body').animate({'scrollTop':scroll}, 500);
+}
