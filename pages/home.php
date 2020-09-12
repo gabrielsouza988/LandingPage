@@ -3,6 +3,8 @@
 		Main Banner
 	------------------------->
 	<section class="main-banner">
+		<div class="banner-single" style="background-image: url('<?php INCLUDE_PATH; ?>assets/img/header_bg.png');"></div>
+		<div class="banner-single"style="background-image: url('<?php INCLUDE_PATH; ?>assets/img/bg-2.jpg');"></div>
 		<div class="center">
 			<form method="post">
 				<h2>Qual seu melhor e-mail?</h2>
